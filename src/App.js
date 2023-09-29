@@ -1,23 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
+import './style.css';
+ import FunctionComp from './Function.js';
+ import CompName from './class.js';
+ import Heading from './Heading';
+//  import { ButtonClass, Button } from './Button.js';
+  import DisplayComponent from './DisplayComponents.js';
+//   import { Button, ButtonClass } from './Button.js';
+
+// import DisplayComp from './practice/DisplayComponent';
+
+// import CompName from './practice/Class';
+
 
 function App() {
+
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Heading />
+       <DisplayComponent />  
+      
+         {/* <FunctionComp />
+
+      <CompName />   */}
+       {/* <DisplayComponent />   */}
+
     </div>
   );
 }
